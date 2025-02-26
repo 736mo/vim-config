@@ -1,0 +1,1 @@
+hi Comment cterm=NONE
