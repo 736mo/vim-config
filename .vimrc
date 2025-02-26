@@ -38,7 +38,6 @@ set background=dark
 let g:sonokai_style = 'andromeda'
 let g:sonokai_better_performance = 1
 colorscheme sonokai
-hi Comment cterm=NONE
 
 if has("gui_running")
     source ~/.vim/gui.vim
