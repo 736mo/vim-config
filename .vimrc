@@ -39,6 +39,11 @@ let g:sonokai_style = 'andromeda'
 let g:sonokai_better_performance = 1
 colorscheme sonokai
 
+let g:rainbow_conf = {
+\   'ctermfgs': ['170', '220', '38'],
+\   'guifgs': ['#d75fd7', '#ffd700', '#00afd7'],
+\}
+
 if has("gui_running")
     source ~/.vim/gui.vim
 else
